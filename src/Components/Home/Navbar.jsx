@@ -57,7 +57,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="text-xl font-semibold  flex items-center">
-          <img src="/public/logo.png" alt="" />
+          <img src="/logo.png" alt="" />
           <span className="text-[#697077] ml-2 hidden sm:block"> WebCode</span>
         </Link>
       </div>

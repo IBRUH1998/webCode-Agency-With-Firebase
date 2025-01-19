@@ -2,7 +2,7 @@ const OurArticles = () => {
   const blogs = [
     {
       id: 1,
-      image: '/public/images/blogs/blog1.png',
+      image: '/images/blogs/blog1.png',
       category: 'Technology',
       title: 'How AI is Shaping the Future of Web Development',
       description:
@@ -13,7 +13,7 @@ const OurArticles = () => {
     },
     {
       id: 2,
-      image: '/public/images/blogs/blog2.png',
+      image: '/images/blogs/blog2.png',
       category: 'Design',
       title: '10 Tips for Creating Stunning UI/UX Designs',
       description:
@@ -24,7 +24,7 @@ const OurArticles = () => {
     },
     {
       id: 3,
-      image: '/public/images/blogs/blog3.png',
+      image: '/images/blogs/blog3.png',
       category: 'Development',
       title: 'Understanding JavaScript Closures in Depth',
       description:
@@ -35,7 +35,7 @@ const OurArticles = () => {
     },
     {
       id: 4,
-      image: '/public/images/blogs/blog4.png',
+      image: '/images/blogs/blog4.png',
       category: 'Business',
       title: 'Why Digital Transformation is Essential for Success',
       description:
