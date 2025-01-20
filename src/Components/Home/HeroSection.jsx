@@ -2,6 +2,7 @@ import { MdOutlinePlayCircle } from 'react-icons/md'
 import { FaArrowRight } from 'react-icons/fa6'
 import { Link } from 'react-router'
 import { useState, useEffect } from 'react'
+import banner from '../../assets/banner.png'
 
 const HeroSection = () => {
   const [playVideo, setPlayVideo] = useState(false)
@@ -34,7 +35,7 @@ const HeroSection = () => {
         {/* Right Side - Video Section */}
         <div className="relative w-full sm:w-1/2 lg:w-1/2 z-20 mx-2 md:z-20">
           <img
-            src="/src/assets/banner.png"
+            src={banner}
             alt="Hero Section Banner"
             className="w-full rounded-lg object-cover"
           />
