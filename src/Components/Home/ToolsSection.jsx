@@ -28,7 +28,7 @@ const ToolsSection = () => {
     },
   ]
   return (
-    <div className="max-w-screen-2xl mx-auto py-20 px-12 container mb-7 ">
+    <div className="max-w-screen-2xl mx-auto pt-10 px-5 container mb-7 ">
       <div className="text-center mb-10">
         <p className="text-blue-600 font-semibold">The tools you need</p>
         <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold mt-8">
@@ -52,7 +52,7 @@ const ToolsSection = () => {
           )
         })}
       </div>
-      <div className="text-center mt-8">
+      <div className="text-center mt-10">
         <button className="btn bg-primary border-none btn-primary ">
           <span>Explore more</span>
           <FaArrowRight />

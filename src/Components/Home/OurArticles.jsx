@@ -46,14 +46,14 @@ const OurArticles = () => {
     },
   ]
   return (
-    <div className="max-w-screen-2xl mx-auto py-20 px-12 container">
+    <div className="max-w-screen-2xl mx-auto py-20 md:px-5 container">
       <div className="text-center mb-10">
         <p className="text-blue-600 font-semibold ">Our Blogs</p>
         <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold mt-4">
           Latest Articles And Insights
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6  mx-1">
         {blogs.map((blog, id) => (
           <div
             key={id}
@@ -73,7 +73,7 @@ const OurArticles = () => {
               <h2 className="card-title text-xl">{blog.title}</h2>
               <p className="text-gray-500 text-lg">{blog.description}</p>
               {/*Author section*/}
-              <div className="flex items-center space-x-5 hover:scale-110 transition transform">
+              <div className="flex items-center space-x-5">
                 <img
                   src={blog.authorImage}
                   alt={blog.authorName}

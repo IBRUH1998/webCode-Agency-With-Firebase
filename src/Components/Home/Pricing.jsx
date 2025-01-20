@@ -47,10 +47,10 @@ const Pricing = () => {
   const [IsYearly, setIsYearly] = useState(false)
 
   return (
-    <div className="max-w-screen-2xl mx-auto py-20 px-12 container">
+    <div className="max-w-screen-2xl mx-auto pt-20 px-5 container">
       {/* Header Section */}
       <div className="text-center mb-10">
-        <p className="text-blue-600 font-semibold">The tools you need</p>
+        <p className="text-blue-600 font-semibold">Choice your Plan</p>
         <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold mt-4">
           All in one solution for your projects
         </h2>
@@ -74,17 +74,15 @@ const Pricing = () => {
       </div>
 
       {/* Pricing Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto  ">
         {pricingPlans.map((plan) => (
-          <div key={plan.name} className="h-full hover:scale-110 transition transform duration-300">
+          <div key={plan.name} className=" ">
             <div className="card bg-base-100 shadow-lg hover:shadow-2xl  transition-all duration-300 h-full flex flex-col">
               {/* Card Header */}
-              <div className="p-5 text-center">
-                <h2 className="card-title text-2xl font-semibold">
-                  {plan.name}
-                </h2>
+              <div className="p-5 text-center   ">
+                <h2 className=" text-2xl font-semibold ">{plan.name}</h2>
                 <p className="text-gray-600 mb-5">Best for {plan.name}</p>
-                <div>
+                <div className="h-20">
                   <span className="font-bold text-2xl">$</span>
                   <span className="font-bold text-2xl">
                     {IsYearly ? plan.yearlyPrice : plan.monthlyPrice}

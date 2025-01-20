@@ -6,7 +6,7 @@ const OurExpert = () => {
   const teamMembers = [
     {
       id: 1,
-      image: '/public/images/members/person1.png',
+      image: '/images/members/person1.png',
       name: 'John Doe',
       role: 'CEO',
       linkedIn: '<FaLinkedin />',
@@ -16,7 +16,7 @@ const OurExpert = () => {
     },
     {
       id: 2,
-      image: '/public/images/members/person2.png',
+      image: '/images/members/person2.png',
       name: 'Jane Smith',
       role: 'CTO',
       linkedIn: 'https://linkedin.com/in/janesmith',
@@ -26,7 +26,7 @@ const OurExpert = () => {
     },
     {
       id: 3,
-      image: '/public/images/members/person3.png',
+      image: '/images/members/person3.png',
       name: 'Mark Johnson',
       role: 'Designer',
       linkedIn: 'https://linkedin.com/in/markjohnson',
@@ -36,7 +36,7 @@ const OurExpert = () => {
     },
     {
       id: 4,
-      image: '/public/images/members/person4.png',
+      image: '/images/members/person4.png',
       name: 'Emily Carter',
       role: 'Developer',
       linkedIn: 'https://linkedin.com/in/emilycarter',
@@ -47,9 +47,9 @@ const OurExpert = () => {
   ]
 
   return (
-    <div className="max-w-screen-2xl mx-auto py-20 px-12 container">
+    <div className="max-w-screen-2xl mx-auto pt-20 px-5 container">
       <div className="text-center mb-10">
-        <p className="text-blue-600 font-semibold">The tools you need</p>
+        <p className="text-blue-600 font-semibold">Meets with our Experts</p>
         <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold mt-4">
           All in one solution for your projects
         </h2>

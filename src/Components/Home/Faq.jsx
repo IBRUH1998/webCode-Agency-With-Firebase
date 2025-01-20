@@ -33,17 +33,17 @@ const faqs = [
 
 const Faq = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto py-20 px-12 container">
+    <div className="max-w-screen-2xl mx-auto px-5 pt-10 container">
       <div className="text-center mb-10">
         <p className="text-blue-600 font-semibold">The tools you need</p>
         <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold mt-4">
           All in one solution for your projects
         </h2>
       </div>
-      <div className="w-2/3 mx-auto">
+      <div className=" sm:w-3/4 md:w-2/4 mx-auto">
         {faqs.map((faq, id) => (
           <div key={id}>
-            <div className="collapse collapse-plus bg-base-200 mb-4 hover:bg-base-300">
+            <div className="collapse collapse-plus bg-base-200 mb-4 hover:bg-base-300 mx-0 ">
               {/* Change input type from "radio" to "checkbox" */}
               <input type="checkbox" name={`faq-${id}`} id={`faq-${id}`} />
               <label
@@ -64,4 +64,3 @@ const Faq = () => {
 }
 
 export default Faq
-

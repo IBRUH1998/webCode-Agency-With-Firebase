@@ -32,7 +32,7 @@ const Services = () => {
   ]
 
   return (
-    <div className="max-w-screen-2xl mx-auto py-20 px-12 container mb-7 ">
+    <div className="max-w-screen-2xl mx-auto pt-20 px-5 container mb-7 ">
       <div className="text-center mb-12">
         <p className="text-blue-600 font-semibold">
           The services Cards you need
